@@ -1,11 +1,5 @@
+public class MyLinkedList <E> implements MyList {
 
-public class MyArrayList<E> implements MyList {
-    private E[] arr;
-    private int size;
-    public MyArrayList() {
-        this.arr = (E[]) new Object[5];
-        this.size = 0;
-    }
     @Override
     public int size() {
         return 0;
@@ -13,23 +7,25 @@ public class MyArrayList<E> implements MyList {
 
     @Override
     public boolean contains(Object o) {
+
         return false;
     }
 
+
     @Override
     public void add(Object item) {
+
     }
 
     @Override
     public void add(Object item, int index) {
-    }
 
+    }
 
     @Override
     public boolean remove(Object item) {
         return false;
     }
-
 
     @Override
     public Object remove(int index) {
@@ -38,6 +34,7 @@ public class MyArrayList<E> implements MyList {
 
     @Override
     public void clear() {
+
     }
 
     @Override
@@ -57,7 +54,6 @@ public class MyArrayList<E> implements MyList {
 
     @Override
     public void sort() {
+
     }
-
-
 }
