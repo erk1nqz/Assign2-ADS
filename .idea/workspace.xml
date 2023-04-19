@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51de437d-4436-4ae3-95b0-b2d4d7b926ce" name="Changes" comment="supplement method clear">
-      <change afterPath="$PROJECT_DIR$/src/MyLinkedList.java" afterDir="false" />
+    <list default="true" id="51de437d-4436-4ae3-95b0-b2d4d7b926ce" name="Changes" comment="add method checkIndex MyLinkedList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681356741914</updated>
       <workItem from="1681356745436" duration="2753000" />
-      <workItem from="1681740905492" duration="13798000" />
+      <workItem from="1681740905492" duration="35261000" />
     </task>
     <task id="LOCAL-00001" summary="creating MyArrayList and implement methods">
       <created>1681369887648</created>
@@ -97,7 +95,112 @@
       <option name="project" value="LOCAL" />
       <updated>1681370361448</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="creating MyLinkedList and implement methods">
+      <created>1681838578986</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681838578986</updated>
+    </task>
+    <task id="LOCAL-00005" summary="supplement method add with one argument">
+      <created>1681885453966</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681885453966</updated>
+    </task>
+    <task id="LOCAL-00006" summary="creating a new method &quot;checkIndex&quot;">
+      <created>1681886045923</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681886045923</updated>
+    </task>
+    <task id="LOCAL-00007" summary="supplement method add with two arguments">
+      <created>1681887117282</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681887117282</updated>
+    </task>
+    <task id="LOCAL-00008" summary="supplement method add with two arguments">
+      <created>1681888651999</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681888651999</updated>
+    </task>
+    <task id="LOCAL-00009" summary="supplement method contains">
+      <created>1681893651637</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681893651637</updated>
+    </task>
+    <task id="LOCAL-00010" summary="supplement method remove item">
+      <created>1681894894104</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681894894105</updated>
+    </task>
+    <task id="LOCAL-00011" summary="supplement method remove index">
+      <created>1681895015792</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681895015792</updated>
+    </task>
+    <task id="LOCAL-00012" summary="supplement method clear">
+      <created>1681895071438</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681895071438</updated>
+    </task>
+    <task id="LOCAL-00013" summary="supplement method get">
+      <created>1681895314464</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1681895314464</updated>
+    </task>
+    <task id="LOCAL-00014" summary="supplement method indexOf">
+      <created>1681895744077</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681895744077</updated>
+    </task>
+    <task id="LOCAL-00015" summary="supplement method lastIndexOf">
+      <created>1681895816330</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681895816330</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add constructor MyLinkedList">
+      <created>1681896643371</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681896643372</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add method size">
+      <created>1681897185955</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1681897185955</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add method checkIndex MyLinkedList">
+      <created>1681899170523</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1681899170523</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,7 +209,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="creating MyArrayList and implement methods" />
     <MESSAGE value="supplement method size" />
+    <MESSAGE value="creating MyLinkedList and implement methods" />
+    <MESSAGE value="supplement method add with one argument" />
+    <MESSAGE value="creating a new method &quot;checkIndex&quot;" />
+    <MESSAGE value="supplement method add with two arguments" />
+    <MESSAGE value="supplement method contains" />
+    <MESSAGE value="supplement method remove item" />
+    <MESSAGE value="supplement method remove index" />
     <MESSAGE value="supplement method clear" />
-    <option name="LAST_COMMIT_MESSAGE" value="supplement method clear" />
+    <MESSAGE value="supplement method get" />
+    <MESSAGE value="supplement method indexOf" />
+    <MESSAGE value="supplement method lastIndexOf" />
+    <MESSAGE value="add constructor MyLinkedList" />
+    <MESSAGE value="add method size" />
+    <MESSAGE value="add method checkIndex MyLinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="add method checkIndex MyLinkedList" />
   </component>
 </project>

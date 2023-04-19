@@ -21,6 +21,5 @@ public class Main {
         list.remove("aishelek");
         System.out.println("size now - " + list.size());
 
-
     }
 }
