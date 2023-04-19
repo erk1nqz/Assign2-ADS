@@ -2,14 +2,29 @@
 public class MyArrayList<E> implements MyList {
     private E[] arr;
     private int size;
+    /**
+     * @function constructor
+     * @noparam
+     * @return void
+     **/
     public MyArrayList() {
         this.arr = (E[]) new Object[5];
         this.size = 0;
     }
+    /**
+     * @function size outputs the length of the array
+     * @noparams
+     * @return int
+     * **/
     @Override
     public int size() {
         return size;
     }
+    /**
+     * @function contains true if Object o in array
+     * @param o search object
+     * @return boolean
+     * **/
 
     @Override
     public boolean contains(Object o) {
@@ -20,6 +35,11 @@ public class MyArrayList<E> implements MyList {
         }
         return false;
     }
+    /**
+     * @function add adds an object to the array
+     * @param item object to add
+     * @return void
+     * **/
 
     @Override
     public void add(Object item) {
@@ -32,6 +52,12 @@ public class MyArrayList<E> implements MyList {
         }
         arr[size++]=(E) item;
     }
+    /**
+     * @function add adds an object to a specific index
+     * @param item object to add
+     * @param index index where to add item
+     * @return void
+     * **/
 
     @Override
     public void add(Object item, int index) {
@@ -50,8 +76,11 @@ public class MyArrayList<E> implements MyList {
         arr[index]=(E)item;
         size++;
     }
-
-
+    /**
+     * @function remove removes an object from the array
+     * @param item object of deletion
+     * @return boolean
+     * **/
     @Override
     public boolean remove(Object item) {
         int index = indexOf(item);
@@ -65,6 +94,11 @@ public class MyArrayList<E> implements MyList {
         size--;
         return false;
     }
+    /**
+     * @function remove removes an object from the array
+     * @param index index of the item to delete
+     * @return Object
+     * **/
 
     @Override
     public Object remove(int index) {
@@ -77,17 +111,32 @@ public class MyArrayList<E> implements MyList {
         size--;
         return removedElement;
     }
+    /**
+     * @function clear clears the array
+     * @noparam
+     * @return void
+     * **/
 
     @Override
     public void clear() {
         this.arr = (E[]) new Object[5];
         this.size = 0;
     }
+    /**
+     * @function get returns an object from the array under its index
+     * @param index object index
+     * @return Object
+     * **/
     @Override
     public Object get(int index) {
         checkIndex(index);
         return arr[index];
     }
+    /**
+     * @function indexOf returns the index of the first occurrence of the object
+     * @param o объект for search
+     * @return int
+     * **/
 
     @Override
     public int indexOf(Object o) {
@@ -98,6 +147,11 @@ public class MyArrayList<E> implements MyList {
         }
         return -1;
     }
+    /**
+     * @function lastIndexOf returns the index of the last occurrence of the object in the array
+     * @param o объект for search
+     * @return int
+     * **/
 
     @Override
     public int lastIndexOf(Object o) {
@@ -111,6 +165,11 @@ public class MyArrayList<E> implements MyList {
     @Override
     public void sort() {
     }
+    /**
+     * @function checkIndex checks the index for its validity within the data structure
+     * @param index index
+     * @return void
+     * **/
 
     public void checkIndex(int index){
         if(index < 0 || index>=size){
