@@ -25,3 +25,19 @@ public boolean contains(Object o) {
     }
 ```
 
+## :heavy_plus_sign: add 
+**Description**: *This method adds an element to the end of the array. If the array is full, this leads to an increase in the size of the array.*
+
+```java
+public void add(Object item) {
+        if (size == arr.length){
+            E[] newArr = (E[]) new Object[arr.length*2];
+            for (int i=0; i< arr.length; i++){
+                newArr[i] = arr[i];
+            }
+            arr=newArr;
+        }
+        arr[size++]=(E) item;
+    }
+```
+
