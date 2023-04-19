@@ -37,6 +37,7 @@ public class MyArrayList<E> implements MyList {
                 newArr[i]=arr[i];
             }
             arr=newArr;
+
         }
         for (int i = size - 1; i>=index; i--){
             arr[i + 1]=arr[i];
