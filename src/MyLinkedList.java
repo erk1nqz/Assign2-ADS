@@ -29,7 +29,16 @@ public class MyLinkedList <E> implements MyList {
 
     @Override
     public boolean contains(Object o) {
-
+        if (head.element == o) {
+            return true;
+        }
+        Node<E> ptr = head.next;
+        while (ptr != null) {
+            if (ptr.equals(o)) {
+                return true;
+            }
+            ptr = ptr.next;
+        }
         return false;
     }
 
