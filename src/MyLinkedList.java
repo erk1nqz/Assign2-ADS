@@ -1,5 +1,23 @@
 public class MyLinkedList <E> implements MyList {
+    private int size;
+    private Node<E> head;
+    private Node<E> tail;
+    private class Node<E> {
+        E element;
+        Node<E> next;
+        Node<E> prev;
 
+        Node(E element, Node<E> next, Node<E> prev) {
+            this.element = element;
+            this.next = next;
+            this.prev = prev;
+        }
+    }
+    public MyLinkedList() {
+        this.head = null;
+        this.tail = null;
+        size = 0;
+    }
     @Override
     public int size() {
         return 0;
