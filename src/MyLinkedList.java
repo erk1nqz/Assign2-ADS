@@ -153,6 +153,17 @@ public class MyLinkedList <E> implements MyList {
 
     @Override
     public Object get(int index) {
+        checkIndex(index);
+        if (index == 0) {
+            return head.element;
+        }
+        Node<E> newNode = head.next;
+        for (int i = 1; i <= size; i++) {
+            if (i == index) {
+                return newNode.element;
+            }
+            newNode = newNode.next;
+        }
         return null;
     }
 
