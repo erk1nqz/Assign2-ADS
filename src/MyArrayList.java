@@ -8,7 +8,7 @@ public class MyArrayList<E> implements MyList {
     }
     @Override
     public int size() {
-        return 0;
+        return size;
     }
 
     @Override
@@ -18,6 +18,14 @@ public class MyArrayList<E> implements MyList {
 
     @Override
     public void add(Object item) {
+        if (size == arr.length){
+            E[] newArr = (E[]) new Object[arr.length*2];
+            for (int i=0; i< arr.length; i++){
+                newArr[i] = arr[i];
+            }
+            arr=newArr;
+        }
+        arr[size++]=(E) item;
     }
 
     @Override
