@@ -169,7 +169,18 @@ public class MyLinkedList <E> implements MyList {
 
     @Override
     public int indexOf(Object o) {
-        return 0;
+        Node<E> newNode = new Node<E>((E) o, null, null);
+        if (head.element == newNode.element) {
+            return 0;
+        }
+        Node<E> ptr = head.next;
+        for (int i = 1; i <= size; i++) {
+            if (ptr.element == newNode.element) {
+                return i;
+            }
+            ptr = ptr.next;
+        }
+        return -1;
     }
 
     @Override
