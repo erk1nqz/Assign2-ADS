@@ -36,7 +36,17 @@ public class MyLinkedList <E> implements MyList {
 
     @Override
     public void add(Object item) {
-
+        Node<E> newNode = new Node<E>((E) item, null, null);
+        if (head == null) {
+            head = newNode;
+            tail=head;
+        }
+        else {
+            newNode.prev = tail;
+            tail.next = newNode;
+            tail = newNode;
+        }
+        size++;
     }
 
     @Override
