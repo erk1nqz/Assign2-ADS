@@ -23,6 +23,10 @@ public class MyLinkedList <E> implements MyList {
         return size;
     }
 
+    public boolean isEmpty() {
+        return head == null;
+    }
+
     @Override
     public boolean contains(Object o) {
 
