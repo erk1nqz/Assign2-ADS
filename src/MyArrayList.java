@@ -54,9 +54,17 @@ public class MyArrayList<E> implements MyList {
 
     @Override
     public boolean remove(Object item) {
+        int index = indexOf(item);
+        if (index == -1) {
+            return false;
+        }
+        for (int i = index; i < size - 1; i++) {
+            arr[i] = arr[i + 1];
+        }
+        arr[size - 1] = null;
+        size--;
         return false;
     }
-
 
     @Override
     public Object remove(int index) {
