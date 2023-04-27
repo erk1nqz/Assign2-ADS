@@ -1,4 +1,3 @@
-
 public class MyArrayList<E> implements MyList {
     private E[] arr;
     private int size;
@@ -177,5 +176,15 @@ public class MyArrayList<E> implements MyList {
         }
     }
 
-
+   public void sortList (int begin, int end){
+        for(int i = begin; i<=end; i++){
+            for (int F=begin; F<end; i++){
+                if ((int) arr[F]>(int) arr[F+1]){
+                    E temp = arr[F];
+                    arr[F] = arr[F+1];
+                    arr [F+1] = temp ;
+                }
+            }
+        }
+   }
 }

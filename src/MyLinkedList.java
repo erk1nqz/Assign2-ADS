@@ -262,4 +262,15 @@ public class MyLinkedList <E> implements MyList {
             throw new IndexOutOfBoundsException();
         }
     }
+
+    public void addAll(Object[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            add(arr[i]);
+        }
+    }
+
+    public void sortList (int begin, int end){
+
+        }
+    }
 }
